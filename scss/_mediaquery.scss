@@ -1,0 +1,42 @@
+@media (min-width:320px) and (max-width:576px) {
+    .sec-central-inicio {
+        background-color: none;
+    }
+}
+
+@media (min-width:992px) {
+    .nav-item {
+        border-radius: 2px;
+        width: 100px;
+        text-align: center;
+
+        &:hover {
+            background-color: $color2;
+        }
+    }
+
+    .dropdown-menu {
+        background-color: $color3;
+
+        .dropdown-item {
+            font-size: 1rem;
+
+            &:hover {
+                background-color: $color2;
+                border-radius: 2px;
+            }
+        }
+    }
+}
+
+
+
+@media (min-width:576px) {
+
+    .sec-central-inicio {
+        background-color: $color2;
+    }
+}
+
+
+

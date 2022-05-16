@@ -1,0 +1,19 @@
+.line {
+        height: 1px;
+        background-color: $color2;
+        align-self: center;
+}
+
+.contenedor-nosotros {
+        overflow: hidden;
+
+        .box-upline-icon {
+                align-self: center;
+        }
+
+        .accordion-body {
+                i {
+                        color: $color1;
+                }
+        }
+}

@@ -1,0 +1,27 @@
+.fila {
+    display: flex;
+}
+
+@for $var from 1 to 13 {
+    .columnas-#{$var} {
+        width: 8.33% * $var;
+    }
+}
+
+
+@each $clave, $valor in ($justify) {
+    .justificado-#{$clave}
+    {
+        justify-content:$valor;
+    }
+
+}
+
+
+@each $var in $align {
+    .alineamiento-#{$var} {
+        align-items:$var;
+    }
+}
+
+
